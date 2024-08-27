@@ -125,8 +125,7 @@ class SearchRescueEnv(gym.Env):
         return np.array(obs, dtype=np.float32)
     
     def render(self, mode='human'):
-        # Implement your rendering logic here
-        pass 
+        pass
 
     def close(self):
         if hasattr(self, 'screen'):
